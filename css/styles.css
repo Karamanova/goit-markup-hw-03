@@ -250,6 +250,10 @@ background-color: var(--about-team-background-color);
 .team-item:not(:last-child) {
     margin-right: 30px;
 }
+.team-description {
+    text-align: center;
+    padding: 30px 0;
+}
 /*Имена сотрудников*/
 .about-names {
     font-size: 16px;
@@ -266,6 +270,7 @@ background-color: var(--about-team-background-color);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--contacts-list-color);
+    padding: 30px 0;
 }
 /*Футер*/
 .page-footer {
@@ -311,7 +316,7 @@ padding: 60px 0;
     text-decoration: none;
     font-style: normal;
 }
-.contact-address + .contact-link +.contact-link {
+.contact-link + .contact.link {
     margin-top: 9px;
 }
 /*Страница портфолио*/
